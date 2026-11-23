@@ -12,48 +12,67 @@
   "lastUpdated": "2026-11-23",
   "body": [
     {
-      "type": "heading",
-      "level": 2,
-      "text": "Open the right file"
-    },
-    {
       "type": "paragraph",
-      "text": "Use Schemalook’s quick preview to open a .litematic, .schem, .schematic or structure .nbt locally. Schemat.io also accepts .mcstructure and direct schematic URLs. A Bedrock .mcworld such as B172 is a playable world and should be imported in Minecraft."
-    },
-    {
-      "type": "link",
-      "label": "Schemalook quick preview",
-      "href": "https://schemalook.com/preview"
-    },
-    {
-      "type": "link",
-      "label": "Schemat.io 3D viewer",
-      "href": "https://schemat.io/view"
+      "text": "Before gathering materials, answer three questions about the file: how much space the build occupies, what sits below ground, and what the stored blocks cannot tell you about startup."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Inspect the collection system before laying foundations"
+      "text": "Identify the download"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Extension",
+        "How to inspect it"
+      ],
+      "rows": [
+        [
+          ".litematic, .schem, .schematic or .nbt",
+          "Open the build in a compatible schematic viewer. Orbit the model for an overview, then switch to individual horizontal layers."
+        ],
+        [
+          ".mcstructure",
+          "Use a viewer that reads Bedrock structures, such as Schemat.io."
+        ],
+        [
+          ".mcworld",
+          "Import the file as a playable Bedrock world. B172 uses this format, so you can watch the farm operate inside the download."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Read the model from the bottom up"
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
-        "Rotate the full model and locate its input and output. Measure the footprint with Schemalook’s ruler. Leave room beside the output to open storage and reach the collection line.",
-        "Switch to layer mode. Start at the lowest occupied layer and advance upward until you see where the harvested items land. Record its height relative to the foundation.",
-        "Read the block list, then add materials for any storage or access paths outside the schematic. Check the creator’s instructions for items that must be placed inside containers during setup.",
-        "Build a single module and follow one item into storage. If the blocks match but the item stops, inspect the component facing and startup settings at that point before repeating the module."
+        "Find the output chest in the full model and choose a fixed corner as your reference. Measure the width, depth and height. If you measure by coordinates, count both end blocks: from X=10 through X=17 is eight blocks wide.",
+        "Hide the layers above the collector. Find the lowest hopper or transport channel and record how far below the planting surface it sits. That gives you the excavation depth before you lay the floor.",
+        "Raise the visible layer one block at a time. Trace where each item lands, which hopper receives it, and which container that hopper feeds. Check the same corner each time so a camera rotation does not reverse your layout.",
+        "Read the material counts and split them into loads. For example, 145 ordinary stackable building blocks take two full stacks plus 17. Add any access path or extra storage you plan to build outside the file."
       ]
     },
     {
-      "type": "link",
-      "label": "Schemalook ruler and layer tools",
-      "href": "https://schemalook.com/"
+      "type": "heading",
+      "level": 2,
+      "text": "Commission the first section"
+    },
+    {
+      "type": "paragraph",
+      "text": "A visible hopper tells you where a hopper goes. It does not establish which items belong in a filter, how much fuel to supply, or whether a clock starts enabled. Check the creator’s operating sequence for those details. In a test copy, feed one item into the intake and watch it reach the intended chest before copying the section."
     },
     {
       "type": "link",
       "label": "Load the schematic in Minecraft Java",
       "href": "https://wiki.theysix.tech/w/java/how-to-use-a-litematica-file-and-add-it-in-minecraft-java"
+    },
+    {
+      "type": "paragraph",
+      "text": "Viewer references: Schemalook’s ruler, layer mode and block list, and Schemat.io’s supported 3D preview formats."
     }
   ]
 }

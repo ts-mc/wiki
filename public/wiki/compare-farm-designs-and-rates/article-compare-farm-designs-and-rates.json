@@ -12,61 +12,70 @@
   "lastUpdated": "2026-11-23",
   "body": [
     {
+      "type": "paragraph",
+      "text": "Start with a survival goal you can measure. If you need 12 stacks of cane for a trading session, your target is 768 cane. That gives you a way to judge whether a compact build is already large enough."
+    },
+    {
       "type": "heading",
       "level": 2,
-      "text": "Match the design before comparing rates"
+      "text": "Read a farm rate in context"
     },
     {
       "type": "paragraph",
-      "text": "Filter McFarms by edition and farm type. For example, its TheySix flying-machine design for sugar cane and bamboo is listed for Java at 100,000+ items per hour. B172 is a separate Bedrock build. The shared creator and crop do not establish that the two builds produce the same output."
+      "text": "McFarms lists a TheySix Java flying-machine build for cane and bamboo at over 100,000 items per hour. The edition, the items counted and the design all matter. You cannot use that figure to predict the sugar cane collected by one module of Bedrock B172."
     },
     {
-      "type": "link",
-      "label": "McFarms: TheySix Java sugar cane and bamboo farm",
-      "href": "https://mcfarms.com/farms/sugarcane-bamboo-farm-100000-per-hour-theysix"
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Compare the full build"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "Record the creator, game version, target item and number of modules. From TMC Catalogue, follow the complete system’s entry and check for an outdated designation before using an older download.",
-        "Use the Farmly material list to identify expensive components. Compare it with the schematic and tutorial because creator lists can be incomplete. Include any storage or transport you plan to add.",
-        "Write down the required player position, session length and inputs consumed. A design that draws on a bone meal supply has a different running cost from one relying on natural growth."
+      "type": "table",
+      "head": [
+        "Record for each design",
+        "Why it changes the choice"
+      ],
+      "rows": [
+        [
+          "Edition, version and revision",
+          "A Java design and a Bedrock design can harvest the same crop with different mechanisms. Match the tutorial to the revision of the world or schematic."
+        ],
+        [
+          "Output unit and number of modules",
+          "A combined bamboo-and-cane total does not tell you the cane yield. A whole installation and a single row need separate measurements."
+        ],
+        [
+          "Materials and footprint",
+          "Count the costly components first. Then include the collection line, storage, clearance for moving parts and access for repairs."
+        ],
+        [
+          "Required inputs and player position",
+          "A high rate may depend on a steady bone meal supply or on the player keeping every module active. Record the conditions you can reproduce."
+        ]
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Measure collected output"
+      "text": "Time a run in the world download"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Use the edition and version you intend to play. Let the farm reach its usual operating state, clear the output chest, and note the active module count.",
+        "Stay at the chosen operating position. Time several complete harvests and count only the target item delivered to storage.",
+        "Multiply the collected count by 60 and divide by the minutes elapsed. For example, 480 cane in 20 minutes gives 1,440 per hour. At that pace, 768 cane takes about 32 minutes.",
+        "Repeat the run. If drops pile up before storage, clear that bottleneck and measure again before spending materials on another module."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Choose what to build"
     },
     {
       "type": "paragraph",
-      "text": "Start with empty storage. Count just the item you need after a timed run. For example, 480 sugar cane in 20 minutes projects to 1,440 cane per hour. Repeat over several harvest cycles and check for dropped items before treating a low chest count as a slow-growing farm."
+      "text": "When two designs meet your target in the time available, compare the materials you still need to gather and the space you can spare. Keep the creator and revision with your notes so you can find the same design when a game update changes its behavior."
     },
     {
-      "type": "link",
-      "label": "McFarms: filter farm designs",
-      "href": "https://mcfarms.com/farms"
-    },
-    {
-      "type": "link",
-      "label": "Farmly: how to read a listing",
-      "href": "https://farmlymc.com/how-it-works"
-    },
-    {
-      "type": "link",
-      "label": "Browse TMC Catalogue",
-      "href": "https://tmcc.dev/"
-    },
-    {
-      "type": "link",
-      "label": "TMC Catalogue: scope and outdated designs",
-      "href": "https://www.minemev.com/u/TMC_Catalogue/"
+      "type": "paragraph",
+      "text": "References: McFarms’ TheySix sugar cane and bamboo listing, Farmly’s material-list guide, and TMC Catalogue’s complete Java systems and revision guidance."
     }
   ]
 }
