@@ -1,29 +1,19 @@
 {
-  "slug": "bedrock-sugar-cane-b172",
-  "title": "Build and troubleshoot the B172 sugar cane farm",
+  "slug": "sugar-cane-farm-troubleshooting",
+  "title": "Troubleshoot a Bedrock sugar cane farm",
   "edition": "bedrock",
-  "summary": "Trace one stalk from planting to storage in the TheySix Bedrock world before expanding your build.",
+  "summary": "Find out whether a sugar cane farm is losing output during growth, harvesting or collection.",
   "tags": [
+    "Sugar cane",
     "Sugarcane",
-    "B172",
-    "SCKD V1",
-    "Bedrock"
+    "Crop farms",
+    "Troubleshooting"
   ],
   "lastUpdated": "2026-11-23",
   "body": [
     {
       "type": "paragraph",
-      "text": "B172 is a stackable sugar cane farm for Bedrock. Start with one working module. Its cycle has three parts you can check separately: a stalk grows, the upper cane breaks and the drops reach storage. Keep a copy of the B172 world handy so you can compare the first place where your build behaves differently."
-    },
-    {
-      "type": "link",
-      "label": "B172 world and archive entry",
-      "href": "https://theysix.tech/dn/B172"
-    },
-    {
-      "type": "link",
-      "label": "Watch the official B172 tutorial",
-      "href": "https://youtu.be/jKVycK7pNuk"
+      "text": "Watch one stalk through a harvest. Check whether it grows, whether the upper cane breaks, and whether the dropped item reaches storage. The first step that fails tells you where to look."
     },
     {
       "type": "heading",
@@ -83,8 +73,27 @@
       "href": "https://wiki.theysix.tech/w/bedrock/simulation-distance-and-chunk-ticking"
     },
     {
+      "type": "heading",
+      "level": 2,
+      "text": "Example build"
+    },
+    {
       "type": "paragraph",
-      "text": "Mechanics reference: Minecraft Wiki, Sugar Cane. Design and world: TheySix, B172 (SCKD V1)."
+      "text": "TheySix B172 is a stackable design you can open in a separate world to observe a working harvest and collection cycle."
+    },
+    {
+      "type": "link",
+      "label": "B172 world and archive entry",
+      "href": "https://theysix.tech/dn/B172"
+    },
+    {
+      "type": "link",
+      "label": "Watch the official B172 tutorial",
+      "href": "https://youtu.be/jKVycK7pNuk"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mechanics reference: Minecraft Wiki, Sugar Cane."
     }
   ]
 }

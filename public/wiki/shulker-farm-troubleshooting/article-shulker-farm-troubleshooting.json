@@ -8,7 +8,7 @@
     "Farms",
     "Troubleshooting"
   ],
-  "lastUpdated": "2026-10-27",
+  "lastUpdated": "2026-11-23",
   "body": [
     {
       "type": "paragraph",
@@ -232,6 +232,11 @@
     {
       "type": "paragraph",
       "text": "If this guide did not fix your farm, open a ticket in the support channel and mention the helper team. Enjoy your farm!"
+    },
+    {
+      "type": "link",
+      "label": "Example Java shulker farm: TheySix DN 491",
+      "href": "https://theysix.tech/dn/491"
     }
   ]
 }
