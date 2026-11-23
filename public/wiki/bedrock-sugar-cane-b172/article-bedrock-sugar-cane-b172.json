@@ -1,0 +1,62 @@
+{
+  "slug": "bedrock-sugar-cane-b172",
+  "title": "Build and troubleshoot the B172 sugar cane farm",
+  "edition": "bedrock",
+  "summary": "Trace one stalk from planting to storage in the TheySix Bedrock world before expanding your build.",
+  "tags": [
+    "Sugarcane",
+    "B172",
+    "SCKD V1",
+    "Bedrock"
+  ],
+  "lastUpdated": "2026-11-23",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Download B172 and import the .mcworld in Bedrock. Open a copy of the world and compare a single module with your build. The tutorial starts construction at 0:25 and shows operation at 1:36."
+    },
+    {
+      "type": "link",
+      "label": "B172 world and archive entry",
+      "href": "https://theysix.tech/dn/B172"
+    },
+    {
+      "type": "link",
+      "label": "Watch the official B172 tutorial",
+      "href": "https://youtu.be/jKVycK7pNuk"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Find where the cycle stops"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "If cane will not plant on dirt or sand, check the water beside the planting block. Water diagonally across a corner or directly underneath does not satisfy the placement rule.",
+        "If the plant stays short, check for space above it. In Bedrock, applying bone meal to a short stalk can grow it to three blocks. Try this on a spare stalk to isolate planting conditions from the harvesting mechanism.",
+        "Watch one harvest and check that the bottom segment remains planted. If cane breaks but storage stays empty, drop a cane item where the harvested pieces land and follow it through the collection system."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Check an extension"
+    },
+    {
+      "type": "paragraph",
+      "text": "Test the farthest module as well as the one beside the output. Empty the chest, record the module count and time several harvests from the same player position. If output stalls only at the far end, inspect that module’s collection path and simulation distance."
+    },
+    {
+      "type": "link",
+      "label": "Minecraft Wiki: sugar cane placement and growth",
+      "href": "https://minecraft.wiki/w/Sugar_Cane"
+    },
+    {
+      "type": "link",
+      "label": "Bedrock simulation distance",
+      "href": "https://wiki.theysix.tech/w/bedrock/simulation-distance-and-chunk-ticking"
+    }
+  ]
+}

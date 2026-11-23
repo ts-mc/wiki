@@ -1,0 +1,59 @@
+{
+  "slug": "inspect-a-schematic-before-building",
+  "title": "Inspect a schematic before gathering materials",
+  "edition": "java",
+  "summary": "Measure the footprint, inspect hidden collection layers and estimate survival materials from a schematic.",
+  "tags": [
+    "Schemalook",
+    "Schemat.io",
+    "Litematica",
+    "Materials"
+  ],
+  "lastUpdated": "2026-11-23",
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Open the right file"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use Schemalook’s quick preview to open a .litematic, .schem, .schematic or structure .nbt locally. Schemat.io also accepts .mcstructure and direct schematic URLs. A Bedrock .mcworld such as B172 is a playable world and should be imported in Minecraft."
+    },
+    {
+      "type": "link",
+      "label": "Schemalook quick preview",
+      "href": "https://schemalook.com/preview"
+    },
+    {
+      "type": "link",
+      "label": "Schemat.io 3D viewer",
+      "href": "https://schemat.io/view"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Inspect the collection system before laying foundations"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Rotate the full model and locate its input and output. Measure the footprint with Schemalook’s ruler. Leave room beside the output to open storage and reach the collection line.",
+        "Switch to layer mode. Start at the lowest occupied layer and advance upward until you see where the harvested items land. Record its height relative to the foundation.",
+        "Read the block list, then add materials for any storage or access paths outside the schematic. Check the creator’s instructions for items that must be placed inside containers during setup.",
+        "Build a single module and follow one item into storage. If the blocks match but the item stops, inspect the component facing and startup settings at that point before repeating the module."
+      ]
+    },
+    {
+      "type": "link",
+      "label": "Schemalook ruler and layer tools",
+      "href": "https://schemalook.com/"
+    },
+    {
+      "type": "link",
+      "label": "Load the schematic in Minecraft Java",
+      "href": "https://wiki.theysix.tech/w/java/how-to-use-a-litematica-file-and-add-it-in-minecraft-java"
+    }
+  ]
+}

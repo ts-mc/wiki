@@ -1,0 +1,72 @@
+{
+  "slug": "compare-farm-designs-and-rates",
+  "title": "Compare farm designs, rates and build costs",
+  "edition": "java",
+  "summary": "Choose a design for your edition, available materials and target output, then measure what reaches storage.",
+  "tags": [
+    "McFarms",
+    "Farmly",
+    "TMC Catalogue",
+    "Farm rates"
+  ],
+  "lastUpdated": "2026-11-23",
+  "body": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Match the design before comparing rates"
+    },
+    {
+      "type": "paragraph",
+      "text": "Filter McFarms by edition and farm type. For example, its TheySix flying-machine design for sugar cane and bamboo is listed for Java at 100,000+ items per hour. B172 is a separate Bedrock build. The shared creator and crop do not establish that the two builds produce the same output."
+    },
+    {
+      "type": "link",
+      "label": "McFarms: TheySix Java sugar cane and bamboo farm",
+      "href": "https://mcfarms.com/farms/sugarcane-bamboo-farm-100000-per-hour-theysix"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Compare the full build"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Record the creator, game version, target item and number of modules. From TMC Catalogue, follow the complete system’s entry and check for an outdated designation before using an older download.",
+        "Use the Farmly material list to identify expensive components. Compare it with the schematic and tutorial because creator lists can be incomplete. Include any storage or transport you plan to add.",
+        "Write down the required player position, session length and inputs consumed. A design that draws on a bone meal supply has a different running cost from one relying on natural growth."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Measure collected output"
+    },
+    {
+      "type": "paragraph",
+      "text": "Start with empty storage. Count just the item you need after a timed run. For example, 480 sugar cane in 20 minutes projects to 1,440 cane per hour. Repeat over several harvest cycles and check for dropped items before treating a low chest count as a slow-growing farm."
+    },
+    {
+      "type": "link",
+      "label": "McFarms: filter farm designs",
+      "href": "https://mcfarms.com/farms"
+    },
+    {
+      "type": "link",
+      "label": "Farmly: how to read a listing",
+      "href": "https://farmlymc.com/how-it-works"
+    },
+    {
+      "type": "link",
+      "label": "Browse TMC Catalogue",
+      "href": "https://tmcc.dev/"
+    },
+    {
+      "type": "link",
+      "label": "TMC Catalogue: scope and outdated designs",
+      "href": "https://www.minemev.com/u/TMC_Catalogue/"
+    }
+  ]
+}
