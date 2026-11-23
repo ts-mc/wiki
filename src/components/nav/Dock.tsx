@@ -58,8 +58,6 @@ function Divider() {
 
 export function Dock() {
   const pathname = usePathname();
-  const { choice, enter, playing, toggle } = useAudio();
-  const toggleAudio = () => choice === "unset" ? enter("sound") : toggle();
   const ordered = orderedDestinations(selectedCategory(pathname));
   const left = ordered.slice(0, 3);
   const center = ordered[3];
@@ -80,14 +78,19 @@ export function Dock() {
           </li>
           <Divider />
           {right.map((item) => <Slot key={item.id} item={item} />)}
-          <li>
-            <button type="button" onClick={toggleAudio} aria-pressed={playing} aria-label={playing ? "Pause Vesper by HATAMITSUNAMI" : "Play Vesper by HATAMITSUNAMI"} className={slotClass}>
-              {playing ? <Pause className="size-4" aria-hidden="true" /> : <Play className="size-4" aria-hidden="true" />}
-              <span className={labelClass}>Audio</span>
-            </button>
-          </li>
         </ul>
       </nav>
     </div>
+  );
+}
+
+export function SoundtrackControl() {
+  const { choice, enter, playing, toggle } = useAudio();
+  const toggleAudio = () => choice === "unset" ? enter("sound") : toggle();
+  return (
+    <button type="button" onClick={toggleAudio} aria-pressed={playing} className="inline-flex min-h-11 items-center gap-2 text-ink">
+      {playing ? <Pause size={16} aria-hidden="true" /> : <Play size={16} aria-hidden="true" />}
+      {playing ? "Pause" : "Play"} Vesper by HATAMITSUNAMI
+    </button>
   );
 }

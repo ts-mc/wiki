@@ -1,3 +1,5 @@
+import { SoundtrackControl } from "./Dock";
+
 const groups = [
   { label: "Explore", links: [["Wiki home", "https://wiki.theysix.tech"], ["Java articles", "https://wiki.theysix.tech/w/java"], ["Bedrock articles", "https://wiki.theysix.tech/w/bedrock"], ["Discord articles", "https://wiki.theysix.tech/w/discord"]] },
   { label: "Community", links: [["Main", "https://theysix.tech"], ["Events", "https://events.theysix.tech"], ["About", "https://theysix.tech/about"], ["Socials", "https://theysix.tech/socials"], ["Support ro_mihaiu on Ko-fi", "https://ko-fi.com/ro_mihaiu"]] },
@@ -28,7 +30,7 @@ export function Footer() {
           <p>made by <a href="https://discord.ro-mihaiu.xyz" className="text-ink underline hover:text-[var(--portal)]">ro_mihaiu</a></p>
           <p>THEYSIX is not affiliated with Mojang Studios or Microsoft. Minecraft is a trademark of Mojang Studios.</p>
         </div>
-        <p className="lg:text-right">Soundtrack: <span className="text-ink">Vesper - HATAMITSUNAMI</span>. Playback begins only after you choose sound.</p>
+        <div className="lg:text-right"><SoundtrackControl /></div>
       </div>
     </footer>
   );
