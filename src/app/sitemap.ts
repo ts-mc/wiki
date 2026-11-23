@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { wikiArticles } from "@/content/wiki/articles";
 import { wikiTools } from "@/content/wiki/tools";
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://wiki-theysix.ro-mihaiu.xyz";
+const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://wiki.theysix.tech";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
@@ -11,9 +11,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/w/java",
     "/w/bedrock",
     "/w/discord",
-    "/legal/terms",
-    "/legal/privacy",
-    "/legal/cookies",
+    "/tos",
+    "/privacy",
+    "/cookies",
     "/legal/open-source",
   ];
   const articleRoutes = wikiArticles.map((article) => `/w/${article.edition}/${article.slug}`);

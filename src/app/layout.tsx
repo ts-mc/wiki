@@ -4,7 +4,7 @@ import { Dock } from "@/components/nav/Dock";
 import { Footer } from "@/components/nav/Footer";
 import "./globals.css";
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://wiki-theysix.ro-mihaiu.xyz";
+const SITE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://wiki.theysix.tech";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),

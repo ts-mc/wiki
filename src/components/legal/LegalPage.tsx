@@ -15,9 +15,9 @@ type LegalPageProps = {
 };
 
 const legalLinks = [
-  ["Terms of Service", "/legal/terms"],
-  ["Privacy Policy", "/legal/privacy"],
-  ["Cookie Notice", "/legal/cookies"],
+  ["Terms of Service", "/tos"],
+  ["Privacy Policy", "/privacy"],
+  ["Cookie Notice", "/cookies"],
   ["Open Source Licenses", "/legal/open-source"],
 ] as const;
 

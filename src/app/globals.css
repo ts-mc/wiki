@@ -613,3 +613,11 @@ html { scroll-behavior: smooth; }
 .t6-input:hover { border-color: var(--color-ink-muted); }
 .t6-input:focus-visible { border-color: var(--color-focus); }
 .t6-input option { background: var(--color-cosmic); color: var(--color-ink); }
+
+/* Shared TheySix navigation */
+.theysix-dock { --portal: #99e1d9; --muted: #969e7d; --ink: #f1fec8; --rule: #23251e; --void: #020202; }
+.theysix-dock { border: 1px solid rgba(241,254,200,.2); background: linear-gradient(to bottom, rgba(35,33,44,.36), rgba(2,2,2,.3)); box-shadow: inset 0 1px rgba(241,254,200,.24), inset 0 -1px rgba(2,2,2,.24), 0 28px 70px -24px rgba(2,2,2,.86); backdrop-filter: blur(26px) saturate(145%); -webkit-backdrop-filter: blur(26px) saturate(145%); }
+.theysix-dock-home { border: 1px solid rgba(153,225,217,.48); background: rgba(35,33,44,.34); box-shadow: inset 0 1px rgba(241,254,200,.18), 0 0 36px rgba(153,225,217,.18); backdrop-filter: blur(24px) saturate(145%); -webkit-backdrop-filter: blur(24px) saturate(145%); }
+.theysix-dock a:focus-visible, .theysix-dock button:focus-visible { outline: 2px solid var(--portal); outline-offset: 3px; box-shadow: 0 0 0 3px var(--void); }
+@media (max-width: 639px) { .theysix-dock ul { gap: 0; } .theysix-dock li { min-width: 0; } .theysix-dock li > a:not(.theysix-dock-home), .theysix-dock li > button { min-width: 0; width: clamp(2.55rem, calc((100vw - 7rem) / 8), 3.4rem); padding-inline: .1rem; gap: .3rem; } .theysix-dock li > a:not(.theysix-dock-home) span, .theysix-dock li > button span { font-size: 7px; letter-spacing: .08em; } .theysix-dock li.-my-3 { padding-inline: .15rem; } }
+@media (max-width: 359px) { .theysix-dock { padding-inline: .4rem; } .theysix-dock li > a:not(.theysix-dock-home), .theysix-dock li > button { width: 2rem; } .theysix-dock li .theysix-dock-home { width: 3.5rem; height: 3.5rem; } }
